@@ -20,7 +20,7 @@ Clone the repo, then open two terminals.
 ### Terminal 1 — Backend
 
 ```bash
-cd "Claude Code/pacific-access-portal/backend"
+cd "Access Portal/pacific-access-portal/backend"
 python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -32,7 +32,7 @@ API will be available at `http://localhost:8000`.
 ### Terminal 2 — Frontend
 
 ```bash
-cd "Claude Code/pacific-access-portal/frontend"
+cd "Access Portal/pacific-access-portal/frontend"
 npm install
 npm run dev
 ```
